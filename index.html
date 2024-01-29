@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Conjugaison des verbes au présent</h2>
+        <p>Au temps présent simple, pour la plupart des verbes à la troisième personne du singulier, on ajoute <span
+                class="red"><b>"-s"</b></span> ou <span class="red"><b>"-es"</b></span>.</p>
+        <p>Si le verbe se termine par <b>une consonne + y</b>, <b>-s</b>, <b>-sh</b>, <b>-ch</b>, <b>-x</b>, <b>-z</b>,
+            ajoutez <span class="red"><b>-es</b></span>. Dans tous les autres cas, ajoutez <span
+                class="red"><b>-s</b></span></p>
+        <p><i>Par exemple :</i></p>
+        <p>
+        <ul>
+            <li>
+                Verbes se terminant par <b>une consonne + y</b> : to study<br>
+
+                I study<br>
+                He/She/It studi<span class="red"><b>es</b></span>
+            </li>
+            <li>
+                Verbes se terminant par <b>-s</b> : to pass<br>
+
+                pass
+                He/She/It pass<span class="red"><b>es</b></span>
+            </li>
+            <li>
+                Verbes se terminant par <b>-sh</b> : to wish<br>
+
+                I wish
+                He/She/It wish<span class="red"><b>es</b></span>
+            </li>
+            <li>
+                Verbes se terminant par <b>-ch</b> : to teach<br>
+
+                I teach
+                He/She/It teach<span class="red"><b>es</b></span>
+            </li>
+            <li>
+                Verbes se terminant par <b>-x</b> : to fix<br>
+
+                I fix
+                He/She/It fix<span class="red"><b>es</b></span>
+            </li>
+            <li>
+                Verbes se terminant par <b>-z</b> : to fix<br>
+
+                I buzz
+                He/She/It buzz<span class="red"><b>es</b></span>
+            </li>
+        </ul>
+        </p>
+        <p><span class="red"><b>Exceptions</b></span><br><br></p>
+        <p>
+        <ul>
+            <li>
+                Le verbe <b>to have</b>.<br>
+
+                I ha<span class="red"><b>ve</b></span> (у меня есть)<br>
+                He/She/It ha<span class="red"><b>s</b></span>
+            </li>
+            <li>
+                Le verbe <b>to be</b>.<br>
+                I <span class="red"><b>am</b></span><br>
+                You <span class="red"><b></b>are</b></span><br>
+                He/She/It <span class="red"><b></b>is</b></span><br>
+                We <span class="red"><b></b>are</b></span><br>
+                You <span class="red"><b></b>are</b></span><br>
+                They <span class="red"><b></b>are</b></span>
+            </li>
+        </ul>
+        </p>
+
+        <section class="exercises">
+            <p>
+                Traduis les phrases suivantes en anglais (écris tes réponses dans les champs 'Réponse')
+            </p>
+            <div class="exercise" data-answer="I am a schoolgirl">
+                <i>Je suis une élève</i><br><br>
+                <input type="text" class="answer" placeholder="Réponse"><br><br>
+                <button type="button" class="button" onclick="checkAnswer(this)">Répondre</button><br><br>
+                <span class="result"></span><br><br>
+            </div>
+        
+            <div class="exercise" data-answer="We are schoolchildren">
+                <i>Nous sommes des élèves</i><br><br>
+                <input type="text" class="answer" placeholder="Réponse"><br><br>
+                <button type="button" class="button" onclick="checkAnswer(this)">Répondre</button><br><br>
+                <span class="result"></span><br>
+            </div>
+
+            <div class="exercise" data-answer="You are a schoolboy">
+                <i>Tu es un élève</i><br><br>
+                <input type="text" class="answer" placeholder="Réponse"><br><br>
+                <button type="button" class="button" onclick="checkAnswer(this)">Répondre</button><br><br>
+                <span class="result"></span>
+            </div>
+
+            <div class="exercise" data-answer="Fred isa schoolboy">
+                <i>Fred est un élève</i><br><br>
+                <input type="text" class="answer" placeholder="Réponse"><br><br>
+                <button type="button" class="button" onclick="checkAnswer(this)">Répondre</button><br><br>
+                <span class="result"></span>
+            </div>
+
+            <div class="exercise" data-answer="Marie and Nicolas are schoolchildren">
+                <i>Marie et Nicolas sont des élèves</i><br><br>
+                <input type="text" class="answer" placeholder="Réponse"><br><br>
+                <button type="button" class="button" onclick="checkAnswer(this)">Répondre</button><br><br>
+                <span class="result"></span>
+            </div>
+            <p id="score"></p>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
